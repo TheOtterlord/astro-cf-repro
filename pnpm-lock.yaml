@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/cloudflare':
-    specifier: 6.4.0
-    version: 6.4.0(astro@2.9.1)
+    specifier: 6.3.0
+    version: 6.3.0(astro@2.9.1)
   astro:
     specifier: ^2.9.1
     version: 2.9.1
@@ -22,12 +22,11 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: false
 
-  /@astrojs/cloudflare@6.4.0(astro@2.9.1):
-    resolution: {integrity: sha512-PDIRAtn3aNHo/sd30my4M+KF/hLSQ5DUbnS/tV3McgsIN37LI6Z+v0aO4WoXwemqEkH1A9uU3pfj7yx71wC3oQ==}
+  /@astrojs/cloudflare@6.3.0(astro@2.9.1):
+    resolution: {integrity: sha512-XBnVRA5iFIqN1r1Rv2bR4y2TLmAyzF2H7jgvUaBUxcx38Pup7HsfW9nfFjS/dOCL41SEWlQdzSAf0Fy0f+Tzhg==}
     peerDependencies:
-      astro: ^2.6.0
+      astro: ^2.5.0
     dependencies:
-      '@astrojs/underscore-redirects': 0.1.0
       astro: 2.9.1
       esbuild: 0.17.19
       tiny-glob: 0.2.9
@@ -104,10 +103,6 @@ packages:
       which-pm-runs: 1.1.0
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /@astrojs/underscore-redirects@0.1.0:
-    resolution: {integrity: sha512-ZVBhD1Tj+gIY3sPu80UCrtbU8qLf6CevlRC6xeuGK8s09YpLzRkwmkxu+T1qVyv63hsW/ObTqu03RBoLuFBq2A==}
     dev: false
 
   /@astrojs/webapi@2.2.0:
