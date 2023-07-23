@@ -9,7 +9,7 @@ dependencies:
     specifier: ^6.6.2
     version: 6.6.2(astro@2.8.5)
   astro:
-    specifier: ~2.8.5
+    specifier: 2.8.5
     version: 2.8.5
 
 packages:
