@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/cloudflare':
-    specifier: 6.3.0
-    version: 6.3.0(astro@2.9.1)
+    specifier: 6.2.4
+    version: 6.2.4(astro@2.9.1)
   astro:
     specifier: ^2.9.1
     version: 2.9.1
@@ -22,10 +22,10 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: false
 
-  /@astrojs/cloudflare@6.3.0(astro@2.9.1):
-    resolution: {integrity: sha512-XBnVRA5iFIqN1r1Rv2bR4y2TLmAyzF2H7jgvUaBUxcx38Pup7HsfW9nfFjS/dOCL41SEWlQdzSAf0Fy0f+Tzhg==}
+  /@astrojs/cloudflare@6.2.4(astro@2.9.1):
+    resolution: {integrity: sha512-hA8ede9+TQdeg3x8XaPyciYq6yfHAUKqgqjYIvd6vJUMFis97mOCFE5A/J+DGsXs7i7qK2VjZmq05ZBwVdnILw==}
     peerDependencies:
-      astro: ^2.5.0
+      astro: ^2.3.3
     dependencies:
       astro: 2.9.1
       esbuild: 0.17.19
