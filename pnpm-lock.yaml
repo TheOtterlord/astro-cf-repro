@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@astrojs/cloudflare':
-    specifier: 6.5.0
-    version: 6.5.0(astro@2.9.1)
+    specifier: 6.4.0
+    version: 6.4.0(astro@2.9.1)
   astro:
     specifier: ^2.9.1
     version: 2.9.1
@@ -22,13 +22,12 @@ packages:
       '@jridgewell/trace-mapping': 0.3.18
     dev: false
 
-  /@astrojs/cloudflare@6.5.0(astro@2.9.1):
-    resolution: {integrity: sha512-VnEhjNSx51zlUO40oZUUF3qZOF2AtPjTGK/jJXJXdon8c976+VFtgv8CAUq365ykmxXFgnvYXEpFJAY4ZoQjjg==}
+  /@astrojs/cloudflare@6.4.0(astro@2.9.1):
+    resolution: {integrity: sha512-PDIRAtn3aNHo/sd30my4M+KF/hLSQ5DUbnS/tV3McgsIN37LI6Z+v0aO4WoXwemqEkH1A9uU3pfj7yx71wC3oQ==}
     peerDependencies:
-      astro: ^2.6.4
+      astro: ^2.6.0
     dependencies:
       '@astrojs/underscore-redirects': 0.1.0
-      '@cloudflare/workers-types': 4.20230717.1
       astro: 2.9.1
       esbuild: 0.17.19
       tiny-glob: 0.2.9
@@ -344,10 +343,6 @@ packages:
       '@babel/helper-string-parser': 7.22.5
       '@babel/helper-validator-identifier': 7.22.5
       to-fast-properties: 2.0.0
-    dev: false
-
-  /@cloudflare/workers-types@4.20230717.1:
-    resolution: {integrity: sha512-JmtYqsn/rc0gq83rlgItGsh/aJsTQh6ebJTDbq794kGOH7ym6MlpLtbCJj/Qz+hCPgdqoHDOLTlQQguARLi78A==}
     dev: false
 
   /@emmetio/abbreviation@2.3.3:
